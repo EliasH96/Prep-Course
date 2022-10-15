@@ -81,6 +81,10 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  var suma = 0
+  for ( var i = 0; i < numeros.length; i++) { 
+    suma = suma + numeros[i]} 
+   return suma 
 }
 
 
@@ -88,6 +92,7 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+return agregarNumeros ( resultadosTest) / resultadosTest.length
 }
 
 
@@ -197,4 +202,4 @@ module.exports = {
   mayorACien,
   breakStatement,
   continueStatement
-};
+ }
