@@ -203,8 +203,22 @@ function breakStatement(numero) {
   //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y 
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
-  // Tu código:
-
+  // Tu código: 
+var esnum = [];
+let suma = numero;
+for (var i = 0; i < 10; i++) {
+  suma = suma + 2; 
+  if (suma === i) break;
+  else {
+    esnum.push(suma);
+  }
+}  
+if (suma < 10) {
+ return "Se interrumpió la ejecución";
+  }
+  else {
+  return esnum;
+  }
 }
 
 
@@ -215,6 +229,15 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  var esnum1 = [];
+  var suma = numero;
+  for (var i = 0; i < 10; i++) {
+ if (i===5)continue; 
+    else {
+    suma = suma + 2 
+   esnum1.push(suma);
+  }
+} return esnum1
 }
 
 
