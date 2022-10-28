@@ -1,0 +1,21 @@
+
+#thirdDiv {
+width: 500px;
+height: 600px;
+background-color: coral;
+padding: 50px;
+border: 10px;
+border-color: black;
+border-style: double;
+}
+h1 {
+color:aquamarine;
+}
+img {
+width: 400px;
+}
+#spanId {
+font-size: 18px;
+margin: 50px;
+}
+     
